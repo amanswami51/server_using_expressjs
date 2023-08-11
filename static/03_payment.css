@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+    font-size: 100px;
+    text-align: center;
+}
+
+#address{
+    color:red;
+    font-size: xx-large;
+    width: 100%;
+}
+form {
+    padding: 15px;
+    margin: 0px;
+    border: 1px solid grey;
+    background-color: #0fea343a;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+input[type="submit"],input[type="reset"] {
+    background-color: rgb(227, 235, 14);
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 12px;
+    margin: 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+    background-color: orange;
+}
+
+input[type="text"],
+input[type="radio"], 
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"], 
+textarea,
+select {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid blueviolet;
+        border-radius: 4px;
+        margin: 10px;       
+}
+fieldset{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    margin: 10px;
+    background-color: white;
+}
+
+
+        /**************navigation bar css**************/
+        .nav a {
+            display: none;
+        }
+        .nav .icon {
+            float: right;
+            color: yellow;
+            background-color: black;
+            display: block;
+            padding: 6px 14px 3px 14px;
+            margin: 0px 0px 0px 1px;
+            font-size: 31px;
+            position: sticky;
+            top: 0;
+        }
+        /*select icon, apply css when icon is onclick*/
+        .nav.click .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 31px;
+            padding: 6px 14px 3px 14px;
+            margin: 0px 0px 0px 1px;
+        }
+        
+        /*select nav tag, apply css when icon is onclick*/
+        .nav.click {
+            background-color: #333; /*3*/
+            overflow: hidden;         /*6*/
+            position: relative;         /*7*/
+            top: 0px;                 /*8*/
+        }
+        
+        /*select a tag, apply css when icon is onclick*/
+        .nav.click a {
+            text-decoration: none;  /*1*/
+            color: #f2f2f2;       /*2*/
+            padding: 14px 16px;     /*4*/
+            float: none;            /*5*/
+            display: block;
+            text-align: left;
+            font-size: 17px;
+        }
+
+
+/************footer css ****************/
+footer {
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+    bottom: 0px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    float: left;
+} 
+ footer a:hover{
+    background-color: rgb(235, 227, 132);
+    color: red;
+    cursor:pointer;
+}
